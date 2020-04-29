@@ -107,7 +107,7 @@ a:hover, a:active {
 
 .centerImage{
     position: absolute;   
-    right: 36%;
+    right: 34%;
     text-align: center;
     background-color: url(images/cream_dust.png) repeat 0 0;;
     display: inline-block;
