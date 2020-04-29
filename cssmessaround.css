@@ -38,6 +38,24 @@ p {
     background: url(https://cdn.discordapp.com/attachments/616648715632902304/701895661188284536/cream_dust.png) repeat 0 0;
 }
 
+.img {
+    display: grid;
+    width: 100%;
+    height: auto;
+}
+
+
+.imgbox {
+    display: inline-block;
+    display: grid;
+    height: 100%;
+}
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
 a:link, a:visited {
     background-color: cornflowerblue;
     font-family: 'Comic Neue', cursive;
@@ -57,17 +75,6 @@ a:hover, a:active {
     background-color: url(images/cream_dust.png) repeat 0 0;;
     padding: 10px 92px;
     display: inline-block;
-}
-
-/* Split the screen in half */
-.split {
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
 }
 
 /* Control the left side */
@@ -108,7 +115,7 @@ a:hover, a:active {
 
 .centerImage{
     position: absolute;   
-    right: 34%;
+    right: 50%;
     text-align: center;
     background-color: url(images/cream_dust.png) repeat 0 0;;
     display: inline-block;
@@ -116,7 +123,7 @@ a:hover, a:active {
 
 .lessCenterImage{
     position: absolute;   
-    right: 26.5%;
+    right: 50%;
     text-align: center;
     background-color: url(images/cream_dust.png) repeat 0 0;;
     display: inline-block;
