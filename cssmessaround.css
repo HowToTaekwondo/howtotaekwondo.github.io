@@ -40,7 +40,7 @@ p {
 
 .img {
     display: grid;
-    width: 100%;
+    width: 25%;
     height: auto;
 }
 
@@ -76,6 +76,24 @@ a:hover, a:active {
     padding: 10px 92px;
     display: inline-block;
 }
+
+* {
+    box-sizing: border-box;
+  }
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 /* Control the left side */
 .left {
