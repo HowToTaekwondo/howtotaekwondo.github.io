@@ -87,6 +87,20 @@ a:hover, a:active {
     width: 33.33%;
     padding: 5px;
   }
+
+  /* Five image containers (use 25% for four, and 50% for two, etc) */
+.kicking {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+
+    /* Five image containers (use 25% for four, and 50% for two, etc) */
+.form {
+    float: left;
+    width: 23%;
+    padding: 1px;
+  }
   
   /* Clear floats after image containers */
   .row::after {
